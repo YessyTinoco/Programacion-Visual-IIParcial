@@ -86,10 +86,23 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="libretaAhorros.Designer.vb">
+      <DependentUpon>libretaAhorros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="libretaAhorros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="libreta_de_ahorros.Designer.vb">
+      <DependentUpon>libreta_de_ahorros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="libreta_de_ahorros.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -108,6 +121,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="libretaAhorros.resx">
+      <DependentUpon>libretaAhorros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="libreta_de_ahorros.resx">
+      <DependentUpon>libreta_de_ahorros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

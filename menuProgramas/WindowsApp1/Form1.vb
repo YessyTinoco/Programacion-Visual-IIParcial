@@ -56,7 +56,8 @@ Public Class MENU
         hideSubMenu()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles btnLibreta.Click
+        openChildForm(New libretaAhorros())
         hideSubMenu()
     End Sub
 
@@ -84,7 +85,8 @@ Public Class MENU
         hideSubMenu()
     End Sub
 
-    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles btnAhorros.Click
+        openChildForm(New libreta_de_ahorros())
         hideSubMenu()
     End Sub
 
