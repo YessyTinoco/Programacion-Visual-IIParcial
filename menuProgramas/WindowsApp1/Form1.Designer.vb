@@ -38,7 +38,7 @@ Partial Class MENU
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
+        Me.txtbolsaSolidaria = New System.Windows.Forms.Button()
         Me.btnAhorros = New System.Windows.Forms.Button()
         Me.btnTareas = New System.Windows.Forms.Button()
         Me.panelSubmenu = New System.Windows.Forms.Panel()
@@ -172,7 +172,7 @@ Partial Class MENU
         Me.panelSubMenuTa.Controls.Add(Me.Button13)
         Me.panelSubMenuTa.Controls.Add(Me.Button14)
         Me.panelSubMenuTa.Controls.Add(Me.Button15)
-        Me.panelSubMenuTa.Controls.Add(Me.Button16)
+        Me.panelSubMenuTa.Controls.Add(Me.txtbolsaSolidaria)
         Me.panelSubMenuTa.Controls.Add(Me.btnAhorros)
         Me.panelSubMenuTa.Dock = System.Windows.Forms.DockStyle.Top
         Me.panelSubMenuTa.Location = New System.Drawing.Point(0, 336)
@@ -299,22 +299,22 @@ Partial Class MENU
         Me.Button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button15.UseVisualStyleBackColor = True
         '
-        'Button16
+        'txtbolsaSolidaria
         '
-        Me.Button16.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Button16.FlatAppearance.BorderSize = 0
-        Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button16.Location = New System.Drawing.Point(0, 25)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Padding = New System.Windows.Forms.Padding(45, 0, 0, 0)
-        Me.Button16.Size = New System.Drawing.Size(220, 25)
-        Me.Button16.TabIndex = 9
-        Me.Button16.Text = "Button16"
-        Me.Button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.txtbolsaSolidaria.Dock = System.Windows.Forms.DockStyle.Top
+        Me.txtbolsaSolidaria.FlatAppearance.BorderSize = 0
+        Me.txtbolsaSolidaria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtbolsaSolidaria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+        Me.txtbolsaSolidaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.txtbolsaSolidaria.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.txtbolsaSolidaria.Location = New System.Drawing.Point(0, 25)
+        Me.txtbolsaSolidaria.Name = "txtbolsaSolidaria"
+        Me.txtbolsaSolidaria.Padding = New System.Windows.Forms.Padding(45, 0, 0, 0)
+        Me.txtbolsaSolidaria.Size = New System.Drawing.Size(220, 25)
+        Me.txtbolsaSolidaria.TabIndex = 9
+        Me.txtbolsaSolidaria.Text = "Entrega Bolsa Solidaria"
+        Me.txtbolsaSolidaria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.txtbolsaSolidaria.UseVisualStyleBackColor = True
         '
         'btnAhorros
         '
@@ -619,7 +619,7 @@ Partial Class MENU
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
+    Friend WithEvents txtbolsaSolidaria As Button
     Friend WithEvents btnAhorros As Button
     Friend WithEvents btnTareas As Button
     Friend WithEvents panelSubmenu As Panel

@@ -90,7 +90,8 @@ Public Class MENU
         hideSubMenu()
     End Sub
 
-    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles txtbolsaSolidaria.Click
+        openChildForm(New Entrega_bolsaSolidaria())
         hideSubMenu()
     End Sub
 

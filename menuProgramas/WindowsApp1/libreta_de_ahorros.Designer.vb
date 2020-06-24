@@ -50,6 +50,7 @@ Partial Class libreta_de_ahorros
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.btnDetalles = New System.Windows.Forms.Button()
         Me.DataHistorial = New System.Windows.Forms.DataGridView()
         Me.Identidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -62,7 +63,6 @@ Partial Class libreta_de_ahorros
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.ErrorProvider = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.btnDetalles = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -338,6 +338,16 @@ Partial Class libreta_de_ahorros
         Me.GroupBox4.TabIndex = 3
         Me.GroupBox4.TabStop = False
         '
+        'btnDetalles
+        '
+        Me.btnDetalles.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDetalles.Location = New System.Drawing.Point(59, 11)
+        Me.btnDetalles.Name = "btnDetalles"
+        Me.btnDetalles.Size = New System.Drawing.Size(160, 33)
+        Me.btnDetalles.TabIndex = 15
+        Me.btnDetalles.Text = "Mostrar Historial"
+        Me.btnDetalles.UseVisualStyleBackColor = True
+        '
         'DataHistorial
         '
         Me.DataHistorial.AllowUserToAddRows = False
@@ -423,16 +433,6 @@ Partial Class libreta_de_ahorros
         'ErrorProvider
         '
         Me.ErrorProvider.ContainerControl = Me
-        '
-        'btnDetalles
-        '
-        Me.btnDetalles.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDetalles.Location = New System.Drawing.Point(59, 11)
-        Me.btnDetalles.Name = "btnDetalles"
-        Me.btnDetalles.Size = New System.Drawing.Size(160, 33)
-        Me.btnDetalles.TabIndex = 15
-        Me.btnDetalles.Text = "Mostrar Historial"
-        Me.btnDetalles.UseVisualStyleBackColor = True
         '
         'libreta_de_ahorros
         '

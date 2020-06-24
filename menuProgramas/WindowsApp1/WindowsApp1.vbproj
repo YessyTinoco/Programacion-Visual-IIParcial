@@ -79,6 +79,12 @@
     <Compile Include="Arreglos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Entrega_bolsaSolidaria.Designer.vb">
+      <DependentUpon>Entrega_bolsaSolidaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entrega_bolsaSolidaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Arreglos.resx">
       <DependentUpon>Arreglos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrega_bolsaSolidaria.resx">
+      <DependentUpon>Entrega_bolsaSolidaria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>

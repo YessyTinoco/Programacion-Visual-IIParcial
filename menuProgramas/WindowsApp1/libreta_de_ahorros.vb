@@ -221,4 +221,5 @@ Public Class libreta_de_ahorros
         txtImpuesto.Clear()
         DataHistorial.Rows.Remove(DataHistorial.CurrentRow)
     End Sub
+
 End Class
